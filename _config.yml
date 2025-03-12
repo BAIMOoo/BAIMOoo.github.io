@@ -104,5 +104,5 @@ deploy:
   type: git
   repo: https://github.com/BAIMOoo/BAIMOoo.github.io
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: master
+  branch: gh-pages
 
