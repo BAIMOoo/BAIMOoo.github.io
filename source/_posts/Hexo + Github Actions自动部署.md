@@ -1,7 +1,7 @@
 ---
 title: Hexo + Github Actions自动部署
 date: 2025-03-12 16:34:11
-tags:
+tags: 技术分享
 ---
 跟着官方文档部署的Hexo：[在 GitHub Pages 上部署 Hexo](https://hexo.io/zh-cn/docs/github-pages)
 
