@@ -10,16 +10,16 @@ categories: 技术分享
 
 设置_G元表的__index元方法，主要是为了当逻辑中访问了不存在的全局变量时收集报错，并发送到报错日志收集服务器，方便定位问题
 
-<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/image-20250626113419481.png" alt="$fileName"></div>
+<div style="display:inline-block;"><img width="80%" style="float:left; margin-right: 10px;" src="../images/image-20250626113419481.png" alt="$fileName"></div>
 
 <!-- more -->
 在上面设置的基础上，会存在类似情况报错
 
-<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/image-20250626113731723.png" alt="$fileName"></div>
+<div style="display:inline-block;"><img width="80%" style="float:left; margin-right: 10px;" src="../images/image-20250626113731723.png" alt="$fileName"></div>
 
 玩家按下SPACE后报错如下：
 
-<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/image-20250626113753933.png" alt="$fileName"></div>
+<div style="display:inline-block;"><img width="80%" style="float:left; margin-right: 10px;" src="../images/image-20250626113753933.png" alt="$fileName"></div>
 
 
 
