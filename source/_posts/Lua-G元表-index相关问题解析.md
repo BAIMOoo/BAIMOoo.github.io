@@ -10,13 +10,13 @@ categories: 技术分享
 
 设置_G元表的__index元方法，主要是为了当逻辑中访问了不存在的全局变量时收集报错，并发送到报错日志收集服务器，方便定位问题
 
-![image-20250626113419481](C:\Users\BAIM\AppData\Roaming\Typora\typora-user-images\image-20250626113419481.png)
+![image-20250626113419481](/images/image-20250626113419481.png)
 
 在上面设置的基础上，会存在类似情况报错（玩家按下SPACE后报错）
 
-![image-20250626113731723](C:\Users\BAIM\AppData\Roaming\Typora\typora-user-images\image-20250626113731723.png)
+![image-20250626113731723](/images/image-20250626113731723.png)
 
-![image-20250626113753933](C:\Users\BAIM\AppData\Roaming\Typora\typora-user-images\image-20250626113753933.png)
+![image-20250626113753933](/images/image-20250626113753933.png)
 
 **问题分析**
 
