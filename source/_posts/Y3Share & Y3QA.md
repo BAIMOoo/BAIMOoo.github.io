@@ -13,8 +13,8 @@ QA则主要是作为一个问答社区，收集和汇总了不少Y3创作过程�
 
 戳我直达：
 [**Y3Share**](http://y3share.natapp1.cc/)
-<div style="display:inline-block;"><img width="60%" style="float:left; margin-right: 10px;" src="../images/Y3Share展示.png" alt="$fileName"></div>
+<div style="display:inline-block;"><img width="60%" style="float:left; margin-right: 10px;" src="/images/Y3Share展示.png" alt="$fileName"></div>
 
 
 [**Y3QA**](http://60.205.162.211:9888/)
-<div style="display:inline-block;"><img width="60%" style="float:left; margin-right: 10px;" src="../images/Y3QA展示.png" alt="$fileName"></div>
+<div style="display:inline-block;"><img width="60%" style="float:left; margin-right: 10px;" src="/images/Y3QA展示.png" alt="$fileName"></div>
