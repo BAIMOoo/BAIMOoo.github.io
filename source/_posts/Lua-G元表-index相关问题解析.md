@@ -10,13 +10,18 @@ categories: 技术分享
 
 设置_G元表的__index元方法，主要是为了当逻辑中访问了不存在的全局变量时收集报错，并发送到报错日志收集服务器，方便定位问题
 
-![image-20250626113419481](/images/image-20250626113419481.png)
+<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/image-20250626113419481.png" alt="$fileName"></div>
 
-在上面设置的基础上，会存在类似情况报错（玩家按下SPACE后报错）
+<!-- more -->
+在上面设置的基础上，会存在类似情况报错
 
-![image-20250626113731723](/images/image-20250626113731723.png)
+<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/image-20250626113731723.png" alt="$fileName"></div>
 
-![image-20250626113753933](/images/image-20250626113753933.png)
+玩家按下SPACE后报错如下：
+
+<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/image-20250626113753933.png" alt="$fileName"></div>
+
+
 
 **问题分析**
 
@@ -34,7 +39,11 @@ __index元方法定义为访问表中不存在的key时所触发的函数，那L
 
 “与值 **nil** 关联的任何键都不被视为表的一部分。相反，任何不属于表一部分的键都有一个关联的值 **nil**。”
 
-访问一个表中不存在（从未显式定义）的键会返回nil，设置表格中某个键对应的值为nil，可以理解为表格中删除这个键。![img](https://office.netease.com/api/pub/file/download?path=cowork/2025/04/22/6c84a6420cf741bb8c023e69b9c005d3.png&code=MGs3ek9ZckpfMTc1MDkwNzkzNDk0MA==)        
+访问一个表中不存在（从未显式定义）的键会返回nil，设置表格中某个键对应的值为nil，可以理解为表格中删除这个键。
+
+<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/luatable官方文档.png" alt="$fileName"></div>
+
+
 
 **2. __index** 
 
