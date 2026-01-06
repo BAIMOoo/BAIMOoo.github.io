@@ -41,7 +41,7 @@ __index元方法定义为访问表中不存在的key时所触发的函数，那L
 
 访问一个表中不存在（从未显式定义）的键会返回nil，设置表格中某个键对应的值为nil，可以理解为表格中删除这个键。
 
-<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="../images/luatable官方文档.png" alt="$fileName"></div>
+<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="/images/luatable官方文档.png" alt="$fileName"></div>
 
 
 
